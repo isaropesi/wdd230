@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #034f84;
+    color: white;
+    padding: 1rem;
+}
+
+#profile {
+    width: 120px;
+    height: 159px;
+}
+
+nav {
+    text-align: center;
+    background-color: #92a8d1;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 1rem;
+    font-size: 18px;
+    color: black;
+}
+
+#home {
+    background-color: #f7cac9;
+    font-weight: bold;
+}
+
+main {
+    padding: 0 2rem;
+}
+
+h2 {
+    margin: 2rem 0;
+    border-bottom: 2px solid #034f84;
+    color: #034f84;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    background-color: #034f84;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.card ul {
+    padding: 1.3rem;
+}
+
+.card ul li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px solid #92a8d1;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+#info-list {
+    text-align: center;
+}
+
+#info-list li {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #034f84;
+    font-size: 19px;
+    padding: 1.3rem;
+    color: white;
+}
+
+#country {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#flag {
+    width: 28px;
+    height: 19px;
+}
+
+#lastModified {
+    font-size: 16px;
+    color: white;
+}
